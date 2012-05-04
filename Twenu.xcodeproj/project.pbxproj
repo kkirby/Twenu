@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C35997EB1554975400A17B38 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35997EA1554975400A17B38 /* Cocoa.framework */; };
+		C35997F51554975400A17B38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C35997F31554975400A17B38 /* InfoPlist.strings */; };
+		C35997F71554975400A17B38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C35997F61554975400A17B38 /* main.m */; };
+		C35997FB1554975400A17B38 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C35997F91554975400A17B38 /* Credits.rtf */; };
+		C35997FE1554975400A17B38 /* TwenuAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C35997FD1554975400A17B38 /* TwenuAppDelegate.m */; };
+		C35998011554975400A17B38 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C35997FF1554975400A17B38 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C35997E61554975400A17B38 /* Twenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35997EA1554975400A17B38 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C35997ED1554975400A17B38 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C35997EE1554975400A17B38 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C35997EF1554975400A17B38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C35997F21554975400A17B38 /* Twenu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Twenu-Info.plist"; sourceTree = "<group>"; };
+		C35997F41554975400A17B38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C35997F61554975400A17B38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C35997F81554975400A17B38 /* Twenu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Twenu-Prefix.pch"; sourceTree = "<group>"; };
+		C35997FA1554975400A17B38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C35997FC1554975400A17B38 /* TwenuAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwenuAppDelegate.h; sourceTree = "<group>"; };
+		C35997FD1554975400A17B38 /* TwenuAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwenuAppDelegate.m; sourceTree = "<group>"; };
+		C35998001554975400A17B38 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C35997E31554975400A17B38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35997EB1554975400A17B38 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C35997DB1554975400A17B38 = {
+			isa = PBXGroup;
+			children = (
+				C35997F01554975400A17B38 /* Twenu */,
+				C35997E91554975400A17B38 /* Frameworks */,
+				C35997E71554975400A17B38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C35997E71554975400A17B38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C35997E61554975400A17B38 /* Twenu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C35997E91554975400A17B38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C35997EA1554975400A17B38 /* Cocoa.framework */,
+				C35997EC1554975400A17B38 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C35997EC1554975400A17B38 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C35997ED1554975400A17B38 /* AppKit.framework */,
+				C35997EE1554975400A17B38 /* CoreData.framework */,
+				C35997EF1554975400A17B38 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C35997F01554975400A17B38 /* Twenu */ = {
+			isa = PBXGroup;
+			children = (
+				C35997FC1554975400A17B38 /* TwenuAppDelegate.h */,
+				C35997FD1554975400A17B38 /* TwenuAppDelegate.m */,
+				C35997FF1554975400A17B38 /* MainMenu.xib */,
+				C35997F11554975400A17B38 /* Supporting Files */,
+			);
+			path = Twenu;
+			sourceTree = "<group>";
+		};
+		C35997F11554975400A17B38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C35997F21554975400A17B38 /* Twenu-Info.plist */,
+				C35997F31554975400A17B38 /* InfoPlist.strings */,
+				C35997F61554975400A17B38 /* main.m */,
+				C35997F81554975400A17B38 /* Twenu-Prefix.pch */,
+				C35997F91554975400A17B38 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C35997E51554975400A17B38 /* Twenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C35998041554975400A17B38 /* Build configuration list for PBXNativeTarget "Twenu" */;
+			buildPhases = (
+				C35997E21554975400A17B38 /* Sources */,
+				C35997E31554975400A17B38 /* Frameworks */,
+				C35997E41554975400A17B38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Twenu;
+			productName = Twenu;
+			productReference = C35997E61554975400A17B38 /* Twenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C35997DD1554975400A17B38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C35997E01554975400A17B38 /* Build configuration list for PBXProject "Twenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C35997DB1554975400A17B38;
+			productRefGroup = C35997E71554975400A17B38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C35997E51554975400A17B38 /* Twenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C35997E41554975400A17B38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35997F51554975400A17B38 /* InfoPlist.strings in Resources */,
+				C35997FB1554975400A17B38 /* Credits.rtf in Resources */,
+				C35998011554975400A17B38 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C35997E21554975400A17B38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35997F71554975400A17B38 /* main.m in Sources */,
+				C35997FE1554975400A17B38 /* TwenuAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C35997F31554975400A17B38 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C35997F41554975400A17B38 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C35997F91554975400A17B38 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C35997FA1554975400A17B38 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C35997FF1554975400A17B38 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C35998001554975400A17B38 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C35998021554975400A17B38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C35998031554975400A17B38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C35998051554975400A17B38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twenu/Twenu-Prefix.pch";
+				INFOPLIST_FILE = "Twenu/Twenu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C35998061554975400A17B38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Twenu/Twenu-Prefix.pch";
+				INFOPLIST_FILE = "Twenu/Twenu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C35997E01554975400A17B38 /* Build configuration list for PBXProject "Twenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35998021554975400A17B38 /* Debug */,
+				C35998031554975400A17B38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C35998041554975400A17B38 /* Build configuration list for PBXNativeTarget "Twenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35998051554975400A17B38 /* Debug */,
+				C35998061554975400A17B38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C35997DD1554975400A17B38 /* Project object */;
+}

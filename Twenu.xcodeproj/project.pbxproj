@@ -7,13 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C35997EB1554975400A17B38 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35997EA1554975400A17B38 /* Cocoa.framework */; };
 		C35997F51554975400A17B38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C35997F31554975400A17B38 /* InfoPlist.strings */; };
 		C35997F71554975400A17B38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C35997F61554975400A17B38 /* main.m */; };
 		C35997FB1554975400A17B38 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C35997F91554975400A17B38 /* Credits.rtf */; };
 		C35997FE1554975400A17B38 /* TwenuAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C35997FD1554975400A17B38 /* TwenuAppDelegate.m */; };
 		C35998011554975400A17B38 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C35997FF1554975400A17B38 /* MainMenu.xib */; };
+		C3C70BE61555815E0037A512 /* SelectorCombo.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C70BE51555815E0037A512 /* SelectorCombo.m */; };
+		C3C70BEA155582780037A512 /* MenubarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C70BE9155582780037A512 /* MenubarController.m */; };
+		C3C70BED155582880037A512 /* StatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C70BEC155582880037A512 /* StatusItemView.m */; };
+		C3C70BF41555965A0037A512 /* base.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C70BEF155596590037A512 /* base.png */; };
+		C3C70BF51555965A0037A512 /* birdoff.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C70BF0155596590037A512 /* birdoff.png */; };
+		C3C70BF61555965A0037A512 /* birdon.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C70BF1155596590037A512 /* birdon.png */; };
+		C3C70BF71555965A0037A512 /* entry.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C70BF2155596590037A512 /* entry.png */; };
+		C3C70BF81555965A0037A512 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C70BF3155596590037A512 /* settings.png */; };
+		C3C70C091555ABDE0037A512 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35997EA1554975400A17B38 /* Cocoa.framework */; };
+		C3C70C121555AD6F0037A512 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35997ED1554975400A17B38 /* AppKit.framework */; };
+		C3C70C301555B9C50037A512 /* PublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C70C2E1555B9C50037A512 /* PublishViewController.m */; };
+		C3C70C311555B9C50037A512 /* PublishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3C70C2F1555B9C50037A512 /* PublishViewController.xib */; };
+		C3C70C361555CB090037A512 /* PublishWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C70C351555CB090037A512 /* PublishWindow.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C3C70C291555B87E0037A512 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C35997E61554975400A17B38 /* Twenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +53,22 @@
 		C35997FC1554975400A17B38 /* TwenuAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwenuAppDelegate.h; sourceTree = "<group>"; };
 		C35997FD1554975400A17B38 /* TwenuAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwenuAppDelegate.m; sourceTree = "<group>"; };
 		C35998001554975400A17B38 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C3C70BE41555815E0037A512 /* SelectorCombo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectorCombo.h; path = Model/Helpers/SelectorCombo/SelectorCombo.h; sourceTree = "<group>"; };
+		C3C70BE51555815E0037A512 /* SelectorCombo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectorCombo.m; path = Model/Helpers/SelectorCombo/SelectorCombo.m; sourceTree = "<group>"; };
+		C3C70BE8155582780037A512 /* MenubarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenubarController.h; path = Controller/MenuBarController/MenubarController.h; sourceTree = "<group>"; };
+		C3C70BE9155582780037A512 /* MenubarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenubarController.m; path = Controller/MenuBarController/MenubarController.m; sourceTree = "<group>"; };
+		C3C70BEB155582880037A512 /* StatusItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatusItemView.h; path = Controller/MenuBarController/View/StatusItemView/StatusItemView.h; sourceTree = "<group>"; };
+		C3C70BEC155582880037A512 /* StatusItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatusItemView.m; path = Controller/MenuBarController/View/StatusItemView/StatusItemView.m; sourceTree = "<group>"; };
+		C3C70BEF155596590037A512 /* base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = base.png; path = assets/base.png; sourceTree = "<group>"; };
+		C3C70BF0155596590037A512 /* birdoff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = birdoff.png; path = assets/birdoff.png; sourceTree = "<group>"; };
+		C3C70BF1155596590037A512 /* birdon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = birdon.png; path = assets/birdon.png; sourceTree = "<group>"; };
+		C3C70BF2155596590037A512 /* entry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = entry.png; path = assets/entry.png; sourceTree = "<group>"; };
+		C3C70BF3155596590037A512 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings.png; path = assets/settings.png; sourceTree = "<group>"; };
+		C3C70C2D1555B9C50037A512 /* PublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PublishViewController.h; path = Controller/PublishViewController/PublishViewController.h; sourceTree = "<group>"; };
+		C3C70C2E1555B9C50037A512 /* PublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PublishViewController.m; path = Controller/PublishViewController/PublishViewController.m; sourceTree = "<group>"; };
+		C3C70C2F1555B9C50037A512 /* PublishViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PublishViewController.xib; path = Controller/PublishViewController/PublishViewController.xib; sourceTree = "<group>"; };
+		C3C70C341555CB090037A512 /* PublishWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PublishWindow.h; path = Controller/PublishViewController/View/PublishWindow/PublishWindow.h; sourceTree = "<group>"; };
+		C3C70C351555CB090037A512 /* PublishWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PublishWindow.m; path = Controller/PublishViewController/View/PublishWindow/PublishWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C35997EB1554975400A17B38 /* Cocoa.framework in Frameworks */,
+				C3C70C121555AD6F0037A512 /* AppKit.framework in Frameworks */,
+				C3C70C091555ABDE0037A512 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +87,7 @@
 		C35997DB1554975400A17B38 = {
 			isa = PBXGroup;
 			children = (
+				C3C70BEE1555964C0037A512 /* Assets */,
 				C35997F01554975400A17B38 /* Twenu */,
 				C35997E91554975400A17B38 /* Frameworks */,
 				C35997E71554975400A17B38 /* Products */,
@@ -82,6 +124,8 @@
 		C35997F01554975400A17B38 /* Twenu */ = {
 			isa = PBXGroup;
 			children = (
+				C3C70BE2155581170037A512 /* Model */,
+				C3C70BDD1555721E0037A512 /* Controller */,
 				C35997FC1554975400A17B38 /* TwenuAppDelegate.h */,
 				C35997FD1554975400A17B38 /* TwenuAppDelegate.m */,
 				C35997FF1554975400A17B38 /* MainMenu.xib */,
@@ -102,6 +146,107 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C3C70BD8155571C50037A512 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C3C70BD9155571D20037A512 /* Status Item View */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C3C70BD9155571D20037A512 /* Status Item View */ = {
+			isa = PBXGroup;
+			children = (
+				C3C70BEB155582880037A512 /* StatusItemView.h */,
+				C3C70BEC155582880037A512 /* StatusItemView.m */,
+			);
+			name = "Status Item View";
+			sourceTree = "<group>";
+		};
+		C3C70BDD1555721E0037A512 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C3C70C2C1555B9A50037A512 /* Publish View Controller */,
+				C3C70BDE155572270037A512 /* Menu Bar Controller */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C3C70BDE155572270037A512 /* Menu Bar Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C3C70BE8155582780037A512 /* MenubarController.h */,
+				C3C70BE9155582780037A512 /* MenubarController.m */,
+				C3C70BD8155571C50037A512 /* View */,
+			);
+			name = "Menu Bar Controller";
+			sourceTree = "<group>";
+		};
+		C3C70BE2155581170037A512 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3C70BE31555811E0037A512 /* Helpers */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C3C70BE31555811E0037A512 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C3C70BE7155581620037A512 /* SelectorCombo */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		C3C70BE7155581620037A512 /* SelectorCombo */ = {
+			isa = PBXGroup;
+			children = (
+				C3C70BE41555815E0037A512 /* SelectorCombo.h */,
+				C3C70BE51555815E0037A512 /* SelectorCombo.m */,
+			);
+			name = SelectorCombo;
+			sourceTree = "<group>";
+		};
+		C3C70BEE1555964C0037A512 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C3C70BEF155596590037A512 /* base.png */,
+				C3C70BF0155596590037A512 /* birdoff.png */,
+				C3C70BF1155596590037A512 /* birdon.png */,
+				C3C70BF2155596590037A512 /* entry.png */,
+				C3C70BF3155596590037A512 /* settings.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		C3C70C2C1555B9A50037A512 /* Publish View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C3C70C321555CAD00037A512 /* View */,
+				C3C70C2D1555B9C50037A512 /* PublishViewController.h */,
+				C3C70C2E1555B9C50037A512 /* PublishViewController.m */,
+				C3C70C2F1555B9C50037A512 /* PublishViewController.xib */,
+			);
+			name = "Publish View Controller";
+			sourceTree = "<group>";
+		};
+		C3C70C321555CAD00037A512 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C3C70C331555CAD70037A512 /* Publish Window */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C3C70C331555CAD70037A512 /* Publish Window */ = {
+			isa = PBXGroup;
+			children = (
+				C3C70C341555CB090037A512 /* PublishWindow.h */,
+				C3C70C351555CB090037A512 /* PublishWindow.m */,
+			);
+			name = "Publish Window";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,9 +254,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C35998041554975400A17B38 /* Build configuration list for PBXNativeTarget "Twenu" */;
 			buildPhases = (
+				C35997E41554975400A17B38 /* Resources */,
 				C35997E21554975400A17B38 /* Sources */,
 				C35997E31554975400A17B38 /* Frameworks */,
-				C35997E41554975400A17B38 /* Resources */,
+				C3C70C291555B87E0037A512 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -155,6 +301,12 @@
 				C35997F51554975400A17B38 /* InfoPlist.strings in Resources */,
 				C35997FB1554975400A17B38 /* Credits.rtf in Resources */,
 				C35998011554975400A17B38 /* MainMenu.xib in Resources */,
+				C3C70BF41555965A0037A512 /* base.png in Resources */,
+				C3C70BF51555965A0037A512 /* birdoff.png in Resources */,
+				C3C70BF61555965A0037A512 /* birdon.png in Resources */,
+				C3C70BF71555965A0037A512 /* entry.png in Resources */,
+				C3C70BF81555965A0037A512 /* settings.png in Resources */,
+				C3C70C311555B9C50037A512 /* PublishViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +319,11 @@
 			files = (
 				C35997F71554975400A17B38 /* main.m in Sources */,
 				C35997FE1554975400A17B38 /* TwenuAppDelegate.m in Sources */,
+				C3C70BE61555815E0037A512 /* SelectorCombo.m in Sources */,
+				C3C70BEA155582780037A512 /* MenubarController.m in Sources */,
+				C3C70BED155582880037A512 /* StatusItemView.m in Sources */,
+				C3C70C301555B9C50037A512 /* PublishViewController.m in Sources */,
+				C3C70C361555CB090037A512 /* PublishWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +362,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -232,7 +389,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -250,9 +407,17 @@
 		C35998051554975400A17B38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Twenu\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Twenu/Twenu-Prefix.pch";
 				INFOPLIST_FILE = "Twenu/Twenu-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -261,9 +426,17 @@
 		C35998061554975400A17B38 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Twenu\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Twenu/Twenu-Prefix.pch";
 				INFOPLIST_FILE = "Twenu/Twenu-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -288,6 +461,7 @@
 				C35998061554975400A17B38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

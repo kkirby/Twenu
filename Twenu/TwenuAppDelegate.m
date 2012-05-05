@@ -8,13 +8,17 @@
 
 #import "TwenuAppDelegate.h"
 
+#import "PublishViewController.h"
+
 @implementation TwenuAppDelegate
 
-@synthesize window = _window;
+    @synthesize
+        window = _window,
+        menubarController;
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
-{
-    // Insert code here to initialize your application
-}
+    - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
+    {
+        [self setMenubarController: [[MenubarController alloc] init]];
+    }
 
 @end

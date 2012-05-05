@@ -7,9 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "MenubarController.h"
 
 @interface TwenuAppDelegate : NSObject <NSApplicationDelegate>
-
-@property (assign) IBOutlet NSWindow *window;
-
+    @property (nonatomic, strong, retain) MenubarController *menubarController;
+    @property (assign) IBOutlet NSWindow *window;
 @end

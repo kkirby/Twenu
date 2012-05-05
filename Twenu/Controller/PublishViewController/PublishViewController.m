@@ -13,31 +13,30 @@
 		publishWindow,
 		tweetArea;
 
-	
-- (id) init
-{
-	if(self = [super initWithNibName:@"PublishViewController" bundle:nil]){
-		[NSBundle loadNibNamed:@"PublishViewController" owner:self];
+	- (id) init
+	{
+		if(self = [super initWithNibName:@"PublishViewController" bundle:nil]){
+			[NSBundle loadNibNamed:@"PublishViewController" owner:self];
+		}
+		return self;
 	}
-	return self;
-}
 
-- (void) awakeFromNib
-{
-	[self.publishWindow setAcceptsMouseMovedEvents:YES];
-	[self.publishWindow setLevel:NSPopUpMenuWindowLevel];
-	[self.publishWindow setOpaque:NO];
-	[self.publishWindow setBackgroundColor:[NSColor clearColor]];
-}
+	- (void) awakeFromNib
+	{
+		[self.publishWindow setAcceptsMouseMovedEvents:YES];
+		[self.publishWindow setLevel:NSPopUpMenuWindowLevel];
+		[self.publishWindow setOpaque:NO];
+		[self.publishWindow setBackgroundColor:[NSColor clearColor]];
+	}
 
-- (void) show
-{
-	[self.publishWindow makeKeyAndOrderFront:nil];
-	[self.tweetArea becomeFirstResponder];
-}
+	- (void) show
+	{
+		[self.publishWindow makeKeyAndOrderFront:nil];
+		[self.tweetArea becomeFirstResponder];
+	}
 
-- (void) hide
-{
-	[self.publishWindow orderOut:nil];
-}
+	- (void) hide
+	{
+		[self.publishWindow orderOut:nil];
+	}
 @end

@@ -55,6 +55,7 @@
 
 	- (void)dealloc
 	{
+        [super dealloc];
 		[[NSStatusBar systemStatusBar] removeStatusItem:self.statusItem];
 	}
 

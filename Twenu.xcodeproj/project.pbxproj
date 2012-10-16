@@ -12,6 +12,11 @@
 		C35997FB1554975400A17B38 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C35997F91554975400A17B38 /* Credits.rtf */; };
 		C35997FE1554975400A17B38 /* TwenuAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C35997FD1554975400A17B38 /* TwenuAppDelegate.m */; };
 		C35998011554975400A17B38 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C35997FF1554975400A17B38 /* MainMenu.xib */; };
+		C37560DF162D9D240067D37E /* AuthorizeWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C37560DE162D9D240067D37E /* AuthorizeWindow.xib */; };
+		C37560E2162D9E5C0067D37E /* AuthorizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C37560E1162D9E5C0067D37E /* AuthorizeViewController.m */; };
+		C3A06069162C7D3F00F21B7F /* OAuthConsumer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A06068162C7D3F00F21B7F /* OAuthConsumer.framework */; };
+		C3A0606C162C7D8500F21B7F /* OAuthHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A0606B162C7D8500F21B7F /* OAuthHelper.m */; };
+		C3A0606E162C822800F21B7F /* OAuthConsumer.framework in Resources */ = {isa = PBXBuildFile; fileRef = C3A0606D162C822800F21B7F /* OAuthConsumer.framework */; };
 		C3C70BE61555815E0037A512 /* SelectorCombo.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C70BE51555815E0037A512 /* SelectorCombo.m */; };
 		C3C70BEA155582780037A512 /* MenubarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C70BE9155582780037A512 /* MenubarController.m */; };
 		C3C70BED155582880037A512 /* StatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C70BEC155582880037A512 /* StatusItemView.m */; };
@@ -53,6 +58,13 @@
 		C35997FC1554975400A17B38 /* TwenuAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwenuAppDelegate.h; sourceTree = "<group>"; };
 		C35997FD1554975400A17B38 /* TwenuAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwenuAppDelegate.m; sourceTree = "<group>"; };
 		C35998001554975400A17B38 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C37560DE162D9D240067D37E /* AuthorizeWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthorizeWindow.xib; sourceTree = "<group>"; };
+		C37560E0162D9E5C0067D37E /* AuthorizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AuthorizeViewController.h; path = Controller/AuthorizeViewController/AuthorizeViewController.h; sourceTree = "<group>"; };
+		C37560E1162D9E5C0067D37E /* AuthorizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AuthorizeViewController.m; path = Controller/AuthorizeViewController/AuthorizeViewController.m; sourceTree = "<group>"; };
+		C3A06068162C7D3F00F21B7F /* OAuthConsumer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OAuthConsumer.framework; sourceTree = "<group>"; };
+		C3A0606A162C7D8500F21B7F /* OAuthHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAuthHelper.h; path = OAuth/OAuthHelper.h; sourceTree = "<group>"; };
+		C3A0606B162C7D8500F21B7F /* OAuthHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OAuthHelper.m; path = OAuth/OAuthHelper.m; sourceTree = "<group>"; };
+		C3A0606D162C822800F21B7F /* OAuthConsumer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OAuthConsumer.framework; sourceTree = "<group>"; };
 		C3C70BE41555815E0037A512 /* SelectorCombo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectorCombo.h; path = Model/Helpers/SelectorCombo/SelectorCombo.h; sourceTree = "<group>"; };
 		C3C70BE51555815E0037A512 /* SelectorCombo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectorCombo.m; path = Model/Helpers/SelectorCombo/SelectorCombo.m; sourceTree = "<group>"; };
 		C3C70BE8155582780037A512 /* MenubarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenubarController.h; path = Controller/MenuBarController/MenubarController.h; sourceTree = "<group>"; };
@@ -78,6 +90,7 @@
 			files = (
 				C3C70C121555AD6F0037A512 /* AppKit.framework in Frameworks */,
 				C3C70C091555ABDE0037A512 /* Cocoa.framework in Frameworks */,
+				C3A06069162C7D3F00F21B7F /* OAuthConsumer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +100,7 @@
 		C35997DB1554975400A17B38 = {
 			isa = PBXGroup;
 			children = (
+				C3A0606D162C822800F21B7F /* OAuthConsumer.framework */,
 				C3C70BEE1555964C0037A512 /* Assets */,
 				C35997F01554975400A17B38 /* Twenu */,
 				C35997E91554975400A17B38 /* Frameworks */,
@@ -114,6 +128,7 @@
 		C35997EC1554975400A17B38 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C3A06068162C7D3F00F21B7F /* OAuthConsumer.framework */,
 				C35997ED1554975400A17B38 /* AppKit.framework */,
 				C35997EE1554975400A17B38 /* CoreData.framework */,
 				C35997EF1554975400A17B38 /* Foundation.framework */,
@@ -124,6 +139,7 @@
 		C35997F01554975400A17B38 /* Twenu */ = {
 			isa = PBXGroup;
 			children = (
+				C3A06054162C7C2700F21B7F /* OAuth */,
 				C3C70BE2155581170037A512 /* Model */,
 				C3C70BDD1555721E0037A512 /* Controller */,
 				C35997FC1554975400A17B38 /* TwenuAppDelegate.h */,
@@ -146,6 +162,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C37560DC162D9CF20067D37E /* Authorize View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C37560DE162D9D240067D37E /* AuthorizeWindow.xib */,
+				C37560E0162D9E5C0067D37E /* AuthorizeViewController.h */,
+				C37560E1162D9E5C0067D37E /* AuthorizeViewController.m */,
+			);
+			name = "Authorize View Controller";
+			sourceTree = "<group>";
+		};
+		C3A06054162C7C2700F21B7F /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				C3A0606A162C7D8500F21B7F /* OAuthHelper.h */,
+				C3A0606B162C7D8500F21B7F /* OAuthHelper.m */,
+			);
+			name = OAuth;
+			sourceTree = "<group>";
+		};
 		C3C70BD8155571C50037A512 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +201,7 @@
 		C3C70BDD1555721E0037A512 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C37560DC162D9CF20067D37E /* Authorize View Controller */,
 				C3C70C2C1555B9A50037A512 /* Publish View Controller */,
 				C3C70BDE155572270037A512 /* Menu Bar Controller */,
 			);
@@ -274,7 +310,7 @@
 		C35997DD1554975400A17B38 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = C35997E01554975400A17B38 /* Build configuration list for PBXProject "Twenu" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -298,6 +334,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3A0606E162C822800F21B7F /* OAuthConsumer.framework in Resources */,
 				C35997F51554975400A17B38 /* InfoPlist.strings in Resources */,
 				C35997FB1554975400A17B38 /* Credits.rtf in Resources */,
 				C35998011554975400A17B38 /* MainMenu.xib in Resources */,
@@ -307,6 +344,7 @@
 				C3C70BF71555965A0037A512 /* entry.png in Resources */,
 				C3C70BF81555965A0037A512 /* settings.png in Resources */,
 				C3C70C311555B9C50037A512 /* PublishViewController.xib in Resources */,
+				C37560DF162D9D240067D37E /* AuthorizeWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +362,8 @@
 				C3C70BED155582880037A512 /* StatusItemView.m in Sources */,
 				C3C70C301555B9C50037A512 /* PublishViewController.m in Sources */,
 				C3C70C361555CB090037A512 /* PublishWindow.m in Sources */,
+				C3A0606C162C7D8500F21B7F /* OAuthHelper.m in Sources */,
+				C37560E2162D9E5C0067D37E /* AuthorizeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +457,11 @@
 				GCC_PREFIX_HEADER = "Twenu/Twenu-Prefix.pch";
 				INFOPLIST_FILE = "Twenu/Twenu-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Twenu\"",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -437,7 +481,11 @@
 				GCC_PREFIX_HEADER = "Twenu/Twenu-Prefix.pch";
 				INFOPLIST_FILE = "Twenu/Twenu-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Twenu\"",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

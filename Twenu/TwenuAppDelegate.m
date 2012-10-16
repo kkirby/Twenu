@@ -9,6 +9,7 @@
 #import "TwenuAppDelegate.h"
 
 #import "PublishViewController.h"
+#import "OAuthHelper.h"
 
 @implementation TwenuAppDelegate
 
@@ -18,6 +19,11 @@
 
     - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
     {
+        OAToken *accessToken = [[OAToken alloc] initWithUserDefaultsUsingServiceProviderName:@"twitter.com" prefix:@""];
+        if(accessToken == NULL || [[NSUserDefaults standardUserDefaults] boolForKey:@"hasLoaded"] == (Boolean)[NSNull null]){
+            OAuthHelper* myHelper = [[OAuthHelper alloc] init];
+            [myHelper doRequestToken];
+        }
         [self setMenubarController: [[MenubarController alloc] init]];
     }
 
